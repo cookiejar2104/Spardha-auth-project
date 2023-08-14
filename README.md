@@ -1,6 +1,6 @@
 # React + Vite + Firebase Authentication using email and password.
 
-Deployed at: https://spardha23-authpage.netlify.app/
+Deployed at: https://spardha23-auth.netlify.app/
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
