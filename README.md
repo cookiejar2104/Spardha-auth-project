@@ -1,4 +1,4 @@
-# React + Vite
+# React + Vite + Firebase Authentication using email and password.
 
 Deployed at: https://spardha23-authpage.netlify.app/
 
