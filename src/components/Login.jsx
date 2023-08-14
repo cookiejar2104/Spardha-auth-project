@@ -19,7 +19,7 @@ const Login = () => {
   }
 
   return (
-    <div className='m-auto my-[100px] max-w-[700px] justify-center p-10'>
+    <div className='m-auto my-[100px] max-w-[700px] justify-center p-10 shadow-slate-700 shadow-2xl bg-[#242421]' >
     <div className='text-white justify-center text-3xl font-bold'>LOGIN</div>
     <div>
       <form action="" className='flex flex-col pt-6'  onSubmit={(e)=>handleSubmit(e)}>
