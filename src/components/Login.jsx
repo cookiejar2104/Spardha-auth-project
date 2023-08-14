@@ -31,7 +31,7 @@ const Login = () => {
         
       </form>
     </div>
-    <div className='pt-6 sm:text-2xl mx-6'>New here? <span className='text-cyan-500  hover:text-white'><Link to='/signup'>Create account</Link></span></div>
+    <div className='pt-6 sm:text-2xl mx-4 flex flex-col sm:flex sm:flex-row'><span>New here? </span><span className='text-cyan-500  hover:text-white sm:ml-4'><Link to='/signup'>Create account</Link></span></div>
     </div>
   )
 }
