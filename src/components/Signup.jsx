@@ -20,7 +20,7 @@ const Signup = () => {
 
 
   return (
-    <div className='m-auto my-[100px] max-w-[700px] justify-center p-10 shadow-slate-700 shadow-2xl bg-[#242424] rounded-2xl'>
+    <div className='mx-10 my-[100px] md:m-auto md:my-[100px] max-w-[700px] justify-center p-10 shadow-slate-700 shadow-2xl bg-[#242424] rounded-2xl'>
     <div className='text-white justify-center text-3xl font-bold'>SIGNUP</div>
     <div>
       <form action="" className='flex flex-col pt-6' onSubmit={(e)=>handleSubmit(e)}>
@@ -31,7 +31,7 @@ const Signup = () => {
         
       </form>
     </div>
-    <div className='pt-6 mx-6 sm:text-2xl'>Already have account? <span className='text-cyan-500  hover:text-white'><Link to='/'>Login</Link></span></div>
+    <div className='pt-6 mx-6 sm:text-2xl'>Have account? <span className='text-cyan-500  hover:text-white'><Link to='/'>Login</Link></span></div>
     </div>
     )
 }
