@@ -17,8 +17,8 @@ export const Home = () => {
   }
 
   return (
-    <div className='m-auto my-[100px] max-w-[700px] justify-center p-10 shadow-slate-700 shadow-2xl bg-[#242424]'>
-      <div className='text-white text-2xl justify-center sm:text-3xl font-bold '>WELCOME TO MY PAGE</div>
+    <div className='m-auto my-[100px] max-w-[850px] justify-center p-10 shadow-slate-700 shadow-2xl rounded-2xl bg-[#242424]'>
+      <div className='text-white text-2xl justify-center sm:text-3xl font-bold '>WELCOME TO <span className='text-cyan-500'>Spardha'23</span></div>
 
       <div className='pt-6 sm:text-2xl'>Spardha, IIT (BHU) Varanasi's annual sports fest, boasts 36+ years of glory. A premier Northern India event, it hosts 1000+ athletes competing in diverse sports, showcasing exceptional talent and fervor.</div>
       <div>
