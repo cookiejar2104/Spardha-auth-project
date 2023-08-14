@@ -7,18 +7,19 @@ import { Home } from './components/Home';
 import Signup from './components/Signup';
 
 function App() {
-    return (
-      <BrowserRouter>
-  
-      <Routes>
-        <Route path='/' element={<Login/>}/>
-        <Route path='/home' element={<Home/>}/>
-        <Route path='/signup' element={<Signup/>}/>
-        
-      </Routes>
-      
-      </BrowserRouter>
-    )
+  return (
+
+    <BrowserRouter>
+      <div className='font-montserrat'>
+        <Routes>
+          <Route path='/' element={<Login />} />
+          <Route path='/home' element={<Home />} />
+          <Route path='/signup' element={<Signup />} />
+
+        </Routes>
+      </div>
+    </BrowserRouter>
+  )
 }
 
 
