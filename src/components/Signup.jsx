@@ -20,7 +20,7 @@ const Signup = () => {
 
 
   return (
-    <div className='mx-10 my-[100px] md:m-auto md:my-[100px] max-w-[700px] justify-center p-10 shadow-slate-700 shadow-2xl bg-[#242424] rounded-2xl'>
+    <div className='mx-10 my-[100px] md:m-auto md:my-[100px] max-w-[700px] justify-center p-10 shadow-slate-700 shadow-2xl bg-[#242424] rounded-2xl border border-md border-slate-600'>
     <div className='text-white justify-center text-3xl font-bold'>SIGNUP</div>
     <div>
       <form action="" className='flex flex-col pt-6' onSubmit={(e)=>handleSubmit(e)}>
